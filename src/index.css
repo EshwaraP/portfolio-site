@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Force background color override */
+:root {
+  --custom-bg: #161a1d;
+  --custom-accent: #50C9CE;
+  --custom-accent-dark: #3da5aa;
+  --custom-accent-light: #7dd4d8;
+}
+
+.bg-custom-bg {
+  background-color: #161a1d !important;
+}
